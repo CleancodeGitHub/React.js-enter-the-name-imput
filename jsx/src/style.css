@@ -1,0 +1,56 @@
+/* Use a custom font for the whole document */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* Select the div element and set some properties */
+div {
+  width: 80%;
+  margin: 20px auto;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Select the label element and set some properties */
+.label {
+  
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Select the input element and set some properties */
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+/* Use the input:focus pseudo-class to select the input element when it is focused */
+input:focus {
+    /* Change the border color to blue */
+    border-color: blue;
+}
+
+
+/* Select the button element and set some properties */
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Add a hover effect to the button element */
+button:hover {
+  background-color: darkblue;
+}
+
+/* Select the p element and set some properties */
+p {
+  margin-top: 20px;
+}
